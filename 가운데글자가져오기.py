@@ -9,6 +9,8 @@
 s = 'abcde' -> return 'c'
 s = 'qwer' -> return 'we'
 '''
+
+
 def solution(s):
     leng = len(s)
     mid = leng // 2
