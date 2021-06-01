@@ -31,6 +31,7 @@ prices	        return
 
 즉, 이전의 데이터를 제외하고 뒤에 있는 데이터들과 비교했을 때 같거나 작은 수만큼 +1을 하면 [4, 3, 1, 1, 0]을 구할 수 있다.
 '''
+
 def solution(prices):
     answer = [0] * len(prices)
     
@@ -39,3 +40,4 @@ def solution(prices):
             if prices[i] <= prices[j]:
                 answer[i] += 1
     return answer
+
