@@ -61,6 +61,10 @@ def solution(progresses, speeds):
                 check[i] = True
             else:
                 break
+
+        if count != 0:
+            answer.append(count)
+
         if False not in check:
             break       
     return answer
