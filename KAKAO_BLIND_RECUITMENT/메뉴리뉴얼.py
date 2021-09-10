@@ -24,4 +24,4 @@ def solution(orders, course):
             #     if counter[x] == max(counter.values()):
             #         answer += [''.join(x)]
 
-    return answer
+    return sorted(answer)
