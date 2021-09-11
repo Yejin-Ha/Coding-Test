@@ -1,7 +1,6 @@
 from itertools import combinations
 from collections import Counter
 
-
 def solution(orders, course):
     answer = []
     for c in course:
