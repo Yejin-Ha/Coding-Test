@@ -10,4 +10,4 @@ else:
 if times[0] < 0:
     times[0] = 24 + times[0]
 
-print(times)
+print(' '.join(map(str, times)))
