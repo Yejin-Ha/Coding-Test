@@ -16,9 +16,9 @@ def solution(s):
     mid = leng // 2
     
     if leng % 2:
-        answer = str[mid]
+        answer = s[mid]
     else:
         mid = leng // 2
-        answer = str[mid-1:mid+1]
+        answer = s[mid-1:mid+1]
     
     return answer
