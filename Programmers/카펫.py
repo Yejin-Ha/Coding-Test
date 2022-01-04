@@ -1,5 +1,4 @@
 def solution(brown, yellow):
-
     for row in range(1, int(yellow**0.5)+1):
         # row가 yellow의 약수라면
         if yellow % row == 0:
