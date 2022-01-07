@@ -21,3 +21,28 @@ p	result
 
 '''
 
+# 입력받은 문자열을 u, v로 구분하는 함수(step 2)
+def divid(p):
+    left, right = 0, 0
+    for i in range(len(p)):
+        if p[i] == '(':
+            left += 1
+        else:
+            right += 1
+        if left == right:
+            u = p[0:i]
+            v = p[i+1:] if i == len(p) else ""
+            break
+    return u, v
+        
+# "올바른 괄호 문자열"인지 확인하는 함수. stack 구조 사용(LIFO)
+def correct_str(p):
+    stack = []
+    stack.append('(')
+    
+    
+    
+
+def solution(p):
+    answer = ''
+    return answer
