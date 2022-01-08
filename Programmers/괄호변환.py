@@ -40,8 +40,6 @@ def correct_str(p):
     stack = []
     stack.append('(')
     
-    
-    
 
 def solution(p):
     answer = ''
