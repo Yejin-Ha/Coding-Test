@@ -42,5 +42,4 @@ def correct_str(p):
     
 
 def solution(p):
-    answer = ''
-    return answer
+    
