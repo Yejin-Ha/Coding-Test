@@ -20,7 +20,6 @@ p	result
 "()))((()"	"()(())()"
 
 '''
-
 # 입력받은 문자열을 u, v로 구분하는 함수(step 2)
 def divid(p):
     left, right = 0, 0
