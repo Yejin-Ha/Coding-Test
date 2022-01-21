@@ -1,6 +1,6 @@
 T = int(input())
-
 p = []
+
 for _ in range(T):
   k = int(input())
   n = int(input())
